@@ -11,7 +11,7 @@
 #import "MBProgressHUD.h"
 #import "APIService.h"
 
-#import <AWSS3.h>
+#import "AWSS3.h"
 
 @interface CommentViewController () <UITextViewDelegate, UITextFieldDelegate, UIAlertViewDelegate> {
     IBOutlet UIView *commentView;

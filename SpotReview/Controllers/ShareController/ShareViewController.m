@@ -12,7 +12,7 @@
 #import "APIService.h"
 #import "FHSTwitterEngine.h"
 
-#import <AWSS3.h>
+#import "AWSS3.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 

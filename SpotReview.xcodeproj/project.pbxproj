@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5345287567D695486466B524 /* libPods-SpotReview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A26EDD4B5DA45EA6563A5E6 /* libPods-SpotReview.a */; };
-		6C332F9E6A982EB3DF3D0BCF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B97D7C53E11910FF6EFC4E /* libPods.a */; };
+		41D410D87B202526FFFCC6E2 /* Pods_SpotReview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6AA5B165E9D2463DE71FE0 /* Pods_SpotReview.framework */; };
+		8B6AFB541FDB533000A5D41A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B6AFB521FDB533000A5D41A /* LaunchScreen.xib */; };
 		B402D6431C05F218003ED455 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B402D6421C05F218003ED455 /* ContactUsViewController.m */; };
 		B402D6471C06B12A003ED455 /* CompanyDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B402D6461C06B12A003ED455 /* CompanyDetailsViewController.m */; };
 		B402D64A1C06B1B4003ED455 /* CompanyDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B402D6491C06B1B4003ED455 /* CompanyDetailTableViewCell.m */; };
@@ -131,8 +131,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A26EDD4B5DA45EA6563A5E6 /* libPods-SpotReview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpotReview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6AA5B165E9D2463DE71FE0 /* Pods_SpotReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401142B21AF7E8EAC920AD89 /* Pods-SpotReview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotReview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotReview/Pods-SpotReview.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6AFB531FDB533000A5D41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B402D6411C05F218003ED455 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
 		B402D6421C05F218003ED455 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
 		B402D6451C06B12A003ED455 /* CompanyDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyDetailsViewController.h; path = ../CompanyDetailsViewController.h; sourceTree = "<group>"; };
@@ -298,8 +299,6 @@
 		B4E106FE1BD6204100FD6EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B4E107041BD6204100FD6EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4E107061BD6204100FD6EA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B4E107141BD6204100FD6EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4E107151BD6204100FD6EA8 /* SpotReviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotReviewTests.m; sourceTree = "<group>"; };
 		B4E107201BD7634000FD6EA8 /* logo_retina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_retina@2x.png"; sourceTree = "<group>"; };
 		B4E107211BD7634000FD6EA8 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		B4E107251BD7815B00FD6EA8 /* icon29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon29@2x.png"; sourceTree = "<group>"; };
@@ -354,9 +353,8 @@
 			files = (
 				B431BF041BF04FCB00E2D10C /* FBSDKShareKit.framework in Frameworks */,
 				B431BF081BF04FDF00E2D10C /* FBSDKCoreKit.framework in Frameworks */,
-				6C332F9E6A982EB3DF3D0BCF /* libPods.a in Frameworks */,
 				B431BF061BF04FD600E2D10C /* FBSDKLoginKit.framework in Frameworks */,
-				5345287567D695486466B524 /* libPods-SpotReview.a in Frameworks */,
+				41D410D87B202526FFFCC6E2 /* Pods_SpotReview.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				D1B97D7C53E11910FF6EFC4E /* libPods.a */,
-				1A26EDD4B5DA45EA6563A5E6 /* libPods-SpotReview.a */,
+				1C6AA5B165E9D2463DE71FE0 /* Pods_SpotReview.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -728,7 +726,6 @@
 			isa = PBXGroup;
 			children = (
 				B4E106F81BD6204100FD6EA8 /* SpotReview */,
-				B4E107121BD6204100FD6EA8 /* SpotReviewTests */,
 				B4E106F71BD6204100FD6EA8 /* Products */,
 				6E8A29F0DD51C4D5125703BB /* Pods */,
 				8F4F9EB318CFE75E8417356C /* Frameworks */,
@@ -754,6 +751,7 @@
 				B4E1071F1BD7632C00FD6EA8 /* Images */,
 				B4E106FD1BD6204100FD6EA8 /* AppDelegate.h */,
 				B4E106FE1BD6204100FD6EA8 /* AppDelegate.m */,
+				8B6AFB521FDB533000A5D41A /* LaunchScreen.xib */,
 				B4E107031BD6204100FD6EA8 /* Main.storyboard */,
 				B4E107061BD6204100FD6EA8 /* Images.xcassets */,
 				B4E106F91BD6204100FD6EA8 /* Supporting Files */,
@@ -767,23 +765,6 @@
 				B4E106FA1BD6204100FD6EA8 /* Info.plist */,
 				B4E106FB1BD6204100FD6EA8 /* main.m */,
 				B4709D171BDF295500C79E57 /* SpotReview-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B4E107121BD6204100FD6EA8 /* SpotReviewTests */ = {
-			isa = PBXGroup;
-			children = (
-				B4E107151BD6204100FD6EA8 /* SpotReviewTests.m */,
-				B4E107131BD6204100FD6EA8 /* Supporting Files */,
-			);
-			path = SpotReviewTests;
-			sourceTree = "<group>";
-		};
-		B4E107131BD6204100FD6EA8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4E107141BD6204100FD6EA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -977,6 +958,7 @@
 				TargetAttributes = {
 					B4E106F51BD6204100FD6EA8 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 9CHRWUVJ8A;
 					};
 				};
 			};
@@ -1034,6 +1016,7 @@
 				B4709D481BE159A300C79E57 /* avatar@2x.jpg in Resources */,
 				B431BF021BF0476400E2D10C /* twitter_unclicked@2x.png in Resources */,
 				B4709CBA1BDA7E1700C79E57 /* icon_backarrow_white@2x.png in Resources */,
+				8B6AFB541FDB533000A5D41A /* LaunchScreen.xib in Resources */,
 				B4E1072B1BD7815B00FD6EA8 /* icon29@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1047,13 +1030,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotReview-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6AB7537E7D1F1587A5A655FB /* [CP] Copy Pods Resources */ = {
@@ -1077,9 +1063,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpotReview/Pods-SpotReview-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1183,6 +1176,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8B6AFB521FDB533000A5D41A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6AFB531FDB533000A5D41A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		B4E107031BD6204100FD6EA8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1287,7 +1288,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9CHRWUVJ8A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1295,12 +1296,14 @@
 				);
 				GCC_PREFIX_HEADER = "SpotReview/SpotReview-Prefix.pch";
 				INFOPLIST_FILE = SpotReview/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.common.testapp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spot.review;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
@@ -1314,7 +1317,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9CHRWUVJ8A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1322,12 +1325,14 @@
 				);
 				GCC_PREFIX_HEADER = "SpotReview/SpotReview-Prefix.pch";
 				INFOPLIST_FILE = SpotReview/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.common.testapp;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spot.review;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;

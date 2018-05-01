@@ -13,7 +13,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "SRConstant.h"
 
-#import <AWSS3.h>
+#import "AWSS3.h"
 
 @interface ProfileEditViewController () <UIActionSheetDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate> {
     

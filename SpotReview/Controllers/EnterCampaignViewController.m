@@ -130,7 +130,6 @@
         }
         
     } faultCallback:^(NSError *fault) {
-        //        [SVProgressHUD dismiss];
         [MBProgressHUD hideHUDForView:self.view animated:YES];
         [self.view endEditing:NO];
         [[[UIAlertView alloc] initWithTitle:@"Connection Error" message:[fault localizedFailureReason] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
